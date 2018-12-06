@@ -1,3 +1,34 @@
 body {
-    background-color: black;
-}
+    background-color: #eeeeee;
+  }
+  #app {
+    width: 480px;
+    border: 1px solid silver;
+    height: 600px;
+  }
+  nav{
+    box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+    padding: 15px;
+    margin: 0;
+    height: auto;
+  }
+  
+  /* Pool Pros Logo */
+  nav img {
+    float: left;
+    width: 175px;
+    margin: 10px 20px 0 0;
+  }
+  
+  nav button {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px solid #216ddf;
+    border-radius: 5px;
+    color: #216ddf;
+    font-weight: bold;
+  }
+  
+  nav .icon {
+    background-image: url(https://github.com/jannaee/PP3/blob/master/pool-pro-app/src/assets/menu-icon-mobile.png?raw=true);
+  }

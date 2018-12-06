@@ -11,6 +11,18 @@
       <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
     </ul>
   </div>
+
+
+
+  <div id="app">
+  <nav class="mainNav">
+  <img src="https://github.com/jannaee/PP3/blob/master/pool-pro-app/src/assets/pool-pros-logo.png?raw=true" alt="pool pros logo"/>
+  
+  <button><img src=""/></im>FIND A PRO</button>
+  </nav>
+
+</div>
+
 </template>
 
 <script>
@@ -24,5 +36,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import "../css/components/home.scss";
+@import "../css/components/main.scss";
 </style>
