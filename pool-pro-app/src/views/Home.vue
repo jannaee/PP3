@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/pool-pros-logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Pool Pros Logo" src="../assets/pool-pros-logo.png">
+    <HelloWorld msg="The start of something beautiful"/>
   </div>
 </template>
 
