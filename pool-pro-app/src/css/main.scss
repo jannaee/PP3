@@ -1,28 +1,28 @@
 body {
     background-color: #eeeeee;
-  }
-  
-  #app {
+}
+
+#app {
     width: 480px;
     border: 1px solid silver;
     height: 600px;
-  }
-  
-  nav{
-    box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+}
+
+nav {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
     padding: 15px;
     margin: 0;
     height: auto;
-  }
-  
-  /* Pool Pros Logo */
-  nav img {
+}
+
+/* Pool Pros Logo */
+nav img {
     float: left;
     width: 175px;
     margin: 10px 20px 0 0;
-  }
-  
-  nav button {
+}
+
+nav button {
     background-color: #ffffff;
     padding: 12px 13px 0 0;
     border: 2px solid #216ddf;
@@ -30,20 +30,21 @@ body {
     color: #216ddf;
     font-weight: bold;
     font-size: 15px;
-  }
-  
-  nav .icon {
+}
+
+nav .icon {
     background-image: url(https://github.com/jannaee/PP3/blob/master/pool-pro-app/src/assets/menu-icon-mobile.png?raw=true);
-  }
+}
+
 //   Icon Management
 [class^="icon"] {
     border: 1px dashed red;
-  }
-  
-  .icon-location {
+}
+
+.icon-location {
     height: 18px;
     width: auto;
     position: relative;
     top: -12px;
     left: 14px;
-  }
+}

@@ -1,18 +1,17 @@
 <template>
   <div class="home">
-    <img alt="Pool Pros Logo" src="../assets/pool-pros-logo.png">
-    <HelloWorld msg="The start of something beautiful"/>
+    <HeaderNav msg="The start of something beautiful"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import HeaderNav from '@/components/HeaderNav.vue'
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    HeaderNav
   }
 }
 </script>
