@@ -1,9 +1,10 @@
+// Navigation
 body {
-    background-color: #eeeeee;
+
 }
 
 #app {
-    width: 480px;
+    width: 100%;
     border: 1px solid silver;
     height: 600px;
 }
@@ -32,19 +33,30 @@ nav button {
     font-size: 15px;
 }
 
-nav .icon {
-    background-image: url(https://github.com/jannaee/PP3/blob/master/pool-pro-app/src/assets/menu-icon-mobile.png?raw=true);
-}
-
-//   Icon Management
-[class^="icon"] {
-    border: 1px dashed red;
-}
-
 .icon-location {
     height: 18px;
     width: auto;
     position: relative;
     top: -12px;
     left: 14px;
+}
+
+.icon-mobile-nav {
+    float: right;
+    height: 65px;
+    width: auto;
+    position: relative;
+    top: -18px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    // For any viewport larger than 768px
+    body {
+        background-color: #000000;
+    }
+
+
 }

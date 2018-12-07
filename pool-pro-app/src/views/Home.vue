@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <HeaderNav msg="The start of something beautiful"/>
+    <HeaderNav/>
+    <!-- Add in the filter component next -->
   </div>
 </template>
 
