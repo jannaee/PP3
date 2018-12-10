@@ -1,0 +1,63 @@
+//Styles for the Navigation Component
+
+nav {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    padding: 15px;
+    margin: 0;
+    height: auto;
+    a {
+        display: block;
+    }
+}
+
+
+/* Pool Pros Logo */
+nav img {
+    float: left;
+    width: 175px;
+    margin: 10px 20px 0 0;
+}
+nav button {
+    background-color: #ffffff;
+    padding: 12px 13px 0 0;
+    border: 2px solid #216ddf;
+    border-radius: 5px;
+    color: #216ddf;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.icon-location {
+    height: 18px;
+    width: auto;
+    position: relative;
+    top: -12px;
+    left: 14px;
+}
+
+.icon-mobile-nav {
+    float: right;
+    height: 65px;
+    width: auto;
+    position: relative;
+    top: -60px;
+}
+
+.icon-mobile-nav {
+    display:none;    
+} 
+
+@media only screen and (max-width: 768px) {
+
+    // For any viewport smaller than 768px display links in modal/verical layout
+    
+    .icon-mobile-nav {
+        display:block;    
+    } 
+
+    #main-nav a:nth-child(n+2):nth-child(-n+5) {
+        display:none;
+    }
+
+    
+}

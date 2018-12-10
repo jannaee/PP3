@@ -7,7 +7,7 @@
 
 <script>
 // @ is an alias to /src
-import HeaderNav from '@/components/HeaderNav.vue'
+import HeaderNav from '@/components/TheHeaderNav.vue'
 
 export default {
   name: 'home',

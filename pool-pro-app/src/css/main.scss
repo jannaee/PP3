@@ -1,62 +1,12 @@
 // Navigation
 body {
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 #app {
     width: 100%;
-    border: 1px solid silver;
-    height: 600px;
-}
-
-nav {
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
-    padding: 15px;
+    padding: 0;
     margin: 0;
     height: auto;
-}
-
-/* Pool Pros Logo */
-nav img {
-    float: left;
-    width: 175px;
-    margin: 10px 20px 0 0;
-}
-
-nav button {
-    background-color: #ffffff;
-    padding: 12px 13px 0 0;
-    border: 2px solid #216ddf;
-    border-radius: 5px;
-    color: #216ddf;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.icon-location {
-    height: 18px;
-    width: auto;
-    position: relative;
-    top: -12px;
-    left: 14px;
-}
-
-.icon-mobile-nav {
-    float: right;
-    height: 65px;
-    width: auto;
-    position: relative;
-    top: -18px;
-}
-
-
-
-@media only screen and (min-width: 768px) {
-
-    // For any viewport larger than 768px
-    body {
-        background-color: #000000;
-    }
-
-
+    min-width: 475px;
 }
