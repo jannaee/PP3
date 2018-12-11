@@ -1,8 +1,8 @@
 <template>
   <main>
     <ul>
-      <li class='listItem' v-for='(card,index) in cards' :key='index'>
-        <h2>{{ card.title }}</h2>
+      <li v-for='(card,index) in cards' :key='index'>
+        <h2>{{ cards.zipcode }}</h2>
         <p>{{ card.phone }}</p>
         <p>{{ card.email }}</p>
       </li>
