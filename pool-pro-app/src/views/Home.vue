@@ -1,10 +1,10 @@
 <template>
   <main>
     <ul>
-      <li v-for='(card,index) in cards' :key='index'>
-        <h2>{{ cards.zipcode }}</h2>
-        <p>{{ card.phone }}</p>
-        <p>{{ card.email }}</p>
+      <li v-for='(card , index) in cards' :key='index'>
+        <!-- <h2>{{ cards.location }}</h2>
+        <p>{{cards.zipcode}}</p> -->
+        <p>{{ cards.dealers[0].data.name }}</p>
       </li>
     </ul>
   </main>
