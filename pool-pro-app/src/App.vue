@@ -1,12 +1,19 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <!-- <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> -->
-    </div>
+    <TheHeaderNav></TheHeaderNav>
     <router-view/>
+    <h1>Footer</h1>
   </div>
 </template>
+<script>
+import TheHeaderNav from '@/components/TheHeaderNav.vue'
+
+export default {
+  components: {
+    TheHeaderNav
+  }
+}
+</script>
 
 <style scoped lang="scss">
 @import "@/css/main.scss";

@@ -1,18 +1,36 @@
 <template>
-  <div class="home">
-    <HeaderNav/>
-    <!-- Add in the filter component next -->
-  </div>
+  <main>
+    <ul>
+      <li class='listItem' v-for='(card,index) in cards' :key='index'>
+        <h2>{{ card.title }}</h2>
+        <p>{{ card.phone }}</p>
+        <p>{{ card.email }}</p>
+      </li>
+    </ul>
+  </main>
 </template>
-
 <script>
-// @ is an alias to /src
-import HeaderNav from '@/components/TheHeaderNav.vue'
-
 export default {
-  name: 'home',
-  components: {
-    HeaderNav
+  data () {
+    return {
+      cards: [
+        {
+          title: 'Aqua Experts',
+          phone: '1321',
+          email: 'you@gmail.com'
+        },
+        {
+          title: 'PP Pools',
+          phone: '1321',
+          email: 'you@gmail.com'
+        },
+        {
+          title: 'Carolina Pool Specialists',
+          phone: '1321',
+          email: 'you@gmail.com'
+        }
+      ]
+    }
   }
 }
 </script>
