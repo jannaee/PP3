@@ -10,27 +10,11 @@
   </main>
 </template>
 <script>
-import json from './json/data.json'
+import json from '../data/dealers.json'
 export default {
   data () {
     return {
-      cards: [
-        {
-          title: 'Aqua Experts',
-          phone: '1321',
-          email: 'you@gmail.com'
-        },
-        {
-          title: 'PP Pools',
-          phone: '1321',
-          email: 'you@gmail.com'
-        },
-        {
-          title: 'Carolina Pool Specialists',
-          phone: '1321',
-          email: 'you@gmail.com'
-        }
-      ]
+      cards: json
     }
   }
 }

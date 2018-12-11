@@ -8,7 +8,7 @@
      <button>
       <img src="../assets/location-icon.png" class="icon-location">FIND A PRO
     </button>
-    <a @click.stop="expandNav()" v-show="ok">
+    <a @click.stop="expandNav()">
       <img src="../assets/menu-icon-mobile.png" class="icon-mobile-nav mobile" alt="Navigation menu icon">
     </a>
   </nav>
@@ -22,6 +22,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  @import "../css/components/headerNav.scss";
   @import "../css/main.scss";
 </style>
