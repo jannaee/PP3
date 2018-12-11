@@ -10,6 +10,7 @@
   </main>
 </template>
 <script>
+import json from './json/data.json'
 export default {
   data () {
     return {
