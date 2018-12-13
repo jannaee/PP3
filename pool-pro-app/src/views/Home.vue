@@ -26,7 +26,6 @@ export default {
     display: inline-flex;
     flex-flow: row;
     justify-content: center;
-    background-color:#000000;
 
   }
   .dealer-cards {

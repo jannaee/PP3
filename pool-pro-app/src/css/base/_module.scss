@@ -1,7 +1,7 @@
 // contains global styles, such as resets, typography, colors, etc.
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800');
 
-// Colors
+// COLORS
     $primary-blue:#003399;
     $secondary-blue:#216ddf;
     $accent-blue: #00CCCC;
@@ -12,7 +12,7 @@
     
     
 
-// Fonts
+// FONTS
     $main-font:'Open Sans', sans-serif;
     $regular: 400;
     $regular-italic: 400i;
@@ -21,9 +21,16 @@
     $extra-bold: 800;
 
 
+// GLOBALS
+body {
+    font-family: $main-font;
+    color: #333333;
+    font-size: rem;
+        
 
+}
 
-    #app {
+#app {
     width: 100%;
     padding: 0;
     margin: 0;
